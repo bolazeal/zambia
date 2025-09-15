@@ -1,0 +1,8 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+
+[dev]
+  framework = "#static"
+  command = "pnpm dev"
+  port = 5173
